@@ -30,6 +30,9 @@ header {
 header h1 {
   font-size: 2.5em;
   font-style: italic;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
 }
 
 header p {
@@ -41,6 +44,8 @@ header img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Navigation styles */
@@ -131,4 +136,12 @@ footer p {
 #post-list li a:hover {
   background-color: #333;
   color: #fff;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8em; /* Adjust font size for smaller screens */
+  }
 }
