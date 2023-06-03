@@ -72,6 +72,8 @@ nav ul li a {
 
 main {
   margin-top: 20px;
+  width: 66.67%;
+  margin: 0 auto;
 }
 
 section {
