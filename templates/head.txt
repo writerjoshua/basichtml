@@ -1,12 +1,11 @@
 <head>
- <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Author, Researcher, Artist">
   <title>writerjoshua.com- Author, Researcher, Artist</title>
   
   <!-- Meta Tags for SEO -->
-  <meta name="keywords" content="author, writer, artist, poetry, creative, literature, environmental science, college, finance, business management, music production, culinary arts, photography, social media, culture, society, psychology, technology, agriculture">
+  <meta name="keywords" content="blog, author, writer, artist, poetry, creative, literature, environmental science, college, finance, business management, music production, culinary arts, photography, social media, culture, society, psychology, technology, agriculture">
   <meta name="author" content="Joshua Lucero">
   <meta name="robots" content="index, follow">
   <meta name="canonical" href="https:/writerjoshua.com">
@@ -20,7 +19,7 @@
   
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="WriterJoshua.com">
+  <meta name="twitter:title" content="WriterJoshua.com Blog">
   <meta name="twitter:description" content="Author, Researcher, Artist">
   <meta name="twitter:image" content="images/writerjoshlucero author portrait .JPG">
   
@@ -35,8 +34,8 @@
       "sameAs": [
         "https://twitter.com/artsciencejosh",
         "https://www.linkedin.com/in/joshua-lucero-6799b711a/",
-	"https://www.paypal.com/paypalme/writerjoshua"
-	"https://cash.app/$writerjoshua"
+	"https://www.paypal.com/paypalme/writerjoshua",
+	"https://cash.app/$writerjoshua",
        
       ]
     }
