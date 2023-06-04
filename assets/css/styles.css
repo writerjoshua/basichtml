@@ -128,3 +128,30 @@ footer p {
 #footer-section p {
   font-size: 0.8em;
 }
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.card-description {
+  flex-grow: 1;
+}
+
+.card-description h4 {
+  margin: 0;
+}
+
+.card-description p {
+  margin: 0;
+}
+
