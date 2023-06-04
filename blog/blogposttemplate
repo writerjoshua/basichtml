@@ -1,23 +1,99 @@
- <section id="home">
-      <h2>Home</h2>
-      <p>Welcome to my website!</p><p>I write from the heart and tell it like it is. I can be light hearted and witty or I can get straight to the point in intricate detail. I might write about something fun like video games and cat videos or I may delve into some scientific concepts and social commentary.</p>
-<p>I have written a few short stories but, that was some time ago. I’ve written and recorded my own music but, that was also in the past. I am currently enrolled in online classes, pursuing my Associates in Applied Business management with an Environmental Focus so, I intend to share some of my past writing assignments on the subject.</p>
-<p>I currently rely on social security disability and familial generosity but, I would rather establish a reputable business. At one point, I thought social media was going to allow me to do that but, corporate greed disguised as a helpful algorithm all but destroyed any hopes of reaching potential customers. So, I’ve given up on “chasing the dream” with social media and investing in my own website. </p>
-<p> I am building this from scratch, code and all, so it may lack some of the bells and whistles that make other sites seem interesting but, what I might lack in features, I will more than make up for in content. I am looking for a solution that would allow you to subscribe to new blog posts. I don’t feel comfortable providing my home address, a requirement for sending email publications, so if you have any solution, please reach out.</p>
-<p>Here’s a list of some of the subjects I will cover. Once I have established a few posts, they will become links:
-<br>
-<ul>
-	<li>Environmental Science</li>
-	<li>Finance and Investing</li>
-	<li>Sports</li>
-	<li>Technology</li>
-	<li>Agriculture</li>
-	<li>Renewable Energy</li>
-	<li>Video Games</li>
-	<li>Social</li>
-	<li>Culture and Opinion</li>
-</ul>
-<p> Thank You,
-<br> Joshua Lucero
-     </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags for SEO -->
+  <meta name="keywords" content="author, writer, artist, poetry, creative, literature, environmental science, college, finance, business management, music production, culinary arts, photography, social media, culture, society, psychology, technology, agriculture">
+  <meta name="author" content="Joshua Lucero">
+  <meta name="robots" content="index, follow">
+  <meta name="canonical" href="https:/writerjoshua.com">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="WriterJoshua.com Blog">
+  <meta property="og:description" content="Original Author, Researcher, Artist Content">
+  <meta property="og:url" content="https://writerjoshua.com/blog">
+  <meta property="og:image" content="images/writerjoshlucero author portrait .JPG">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WriterJoshua.com Blog">
+  <meta name="twitter:description" content="Original Author, Researcher, Artist Content">
+  <meta name="twitter:image" content="images/writerjoshlucero author portrait .JPG">
+  
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Author",
+      "name": "Joshua Lucero",
+      "jobTitle": "Author, Researcher, Artist",
+      "url": "https://www.writerjoshua.com",
+      "sameAs": [
+        "https://twitter.com/artsciencejosh",
+        "https://www.linkedin.com/in/joshua-lucero-6799b711a/",
+       
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>writerjoshua.com</h1>
+    <p>Author, Researcher, Artist</p>
+    <img src="images/writerjoshlucero author portrait .JPG" alt="Author Portrait" width="100" height="100">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="blog">
+      <h2>Blog</h2>
+      <p>This is my blog page. I'm currently building the site code from scratch. Please bear with me.</p>
     </section>
+
+    <section id="recent-posts">
+      <h3>Recent Posts</h3>
+      <ul id="post-list"></ul>
+    </section>
+    <section id="disqus">
+      <h2>Disqus</h2>
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    var disqus_config = function () {
+        this.page.url = 'https://writerjoshua.github.io'; // Replace with your website's URL
+      this.page.identifier = 'blog';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://writerjoshua.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>
+  </main>
+
+  <footer>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2023 Joshua Lucero. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
