@@ -54,7 +54,7 @@ nav {
   background-color: #666;
   padding: 10px;
   display: flex;
-  justify-content: space-between; /* Align navigation and social icons */
+  justify-content: center; /* Center-align navigation and social icons */
   align-items: center;
 }
 
