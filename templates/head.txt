@@ -1,0 +1,45 @@
+<head>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Author, Researcher, Artist">
+  <title>writerjoshua.com- Author, Researcher, Artist</title>
+  
+  <!-- Meta Tags for SEO -->
+  <meta name="keywords" content="author, writer, artist, poetry, creative, literature, environmental science, college, finance, business management, music production, culinary arts, photography, social media, culture, society, psychology, technology, agriculture">
+  <meta name="author" content="Joshua Lucero">
+  <meta name="robots" content="index, follow">
+  <meta name="canonical" href="https:/writerjoshua.com">
+  
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="WriterJoshua.com">
+  <meta property="og:description" content="Author, Researcher, Artist">
+  <meta property="og:url" content="https://writerjoshua.com">
+  <meta property="og:image" content="images/writerjoshlucero author portrait .JPG">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WriterJoshua.com">
+  <meta name="twitter:description" content="Author, Researcher, Artist">
+  <meta name="twitter:image" content="images/writerjoshlucero author portrait .JPG">
+  
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Author",
+      "name": "Joshua Lucero",
+      "jobTitle": "Author, Researcher, Artist",
+      "url": "https://www.writerjoshua.com",
+      "sameAs": [
+        "https://twitter.com/artsciencejosh",
+        "https://www.linkedin.com/in/joshua-lucero-6799b711a/",
+	"https://www.paypal.com/paypalme/writerjoshua"
+	"https://cash.app/$writerjoshua"
+       
+      ]
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
