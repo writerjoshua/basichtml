@@ -12,7 +12,9 @@
       <h3>Support</h3>
       <p>I despise what advertising has become. They litereally view us a herd animals to be manipulated. They have crossed the line from anticipating our needs to coercing out behavior. There is no gray area. So, I will not be monetizing this site with ads, no matter how well they can target you. It seems like every website I visit is littered with them so, on the rare occasion that I land on one with minimal, or even no ads, I appreciate it. I hope that you feel that way when you visit this site..</p>
       <p>With that, it is still my intention to earn an honest living creating content. If you are interested, there are a few direct ways, such as PayPal and CashApp, and I will also share some referral links from products and companies that use personally and believe that you would appreciate. No tricks. No gimmick.</p>
-      <p>
+      <p><img src="images/writerjoshua cash app qrcode .png" alt="QR Code for WriterJoshua on Cash App">
+      <br>
+      <p><img src="images/writerjoshua paypal qrcode .png" alt="QR Code for WriterJoshua on PayPal">
     </div>
   </section>
   
