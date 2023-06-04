@@ -54,7 +54,7 @@ nav {
   background-color: #666;
   padding: 10px;
   display: flex;
-  justify-content: center; /* Center-align navigation and social icons */
+  justify-content: center; /* Center-align navigation */
   align-items: center;
 }
 
@@ -81,6 +81,8 @@ nav ul li a {
 .social-icons {
   display: flex;
   align-items: center;
+  justify-content: flex-end; /* Align icons to the right */
+  margin-right: 10px; /* Add margin to separate from navigation */
 }
 
 .social-icon {
