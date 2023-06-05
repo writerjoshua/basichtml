@@ -71,13 +71,19 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #c3c3c3f7;
   text-decoration: none;
   padding: 5px 10px;
 }
 
 /* Social Icons */
-
+social-icons
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align icons to the right */
+  margin-right: 10px; /* Add margin to separate from navigation */
+}
 .social-icons {
   display: flex;
   align-items: center;
@@ -85,7 +91,14 @@ nav ul li a {
   margin-right: 10px; /* Add margin to separate from navigation */
 }
 
-.social-icon {
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px; /* Add margin between icons */
+  font-size: 1.2em;
+}
+
+.social-icons {
   margin-right: 10px;
   color: #fff;
   font-size: 1.2em;
