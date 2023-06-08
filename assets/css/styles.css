@@ -18,6 +18,10 @@ h1, h2, h3 {
   padding: 20px;
 }
 
+.worldimage {
+  max-width: 100%;
+  max-height: auto;
+}
 /* Header styles */
 
 header {
@@ -76,34 +80,6 @@ nav ul li a {
   padding: 5px 10px;
 }
 
-/* Social Icons */
-social-icons
-.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; /* Align icons to the right */
-  margin-right: 10px; /* Add margin to separate from navigation */
-}
-.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; /* Align icons to the right */
-  margin-right: 10px; /* Add margin to separate from navigation */
-}
-
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 5px; /* Add margin between icons */
-  font-size: 1.2em;
-}
-
-.social-icons {
-  margin-right: 10px;
-  color: #fff;
-  font-size: 1.2em;
-}
-
 /* Main content styles */
 
 main {
@@ -149,6 +125,10 @@ footer p {
   background-color: #666;
   color: #fff;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #footer-section h3 {
@@ -162,10 +142,13 @@ footer p {
 
 .card {
   display: flex;
+  width: 49%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #f9f9f9;
+  border-style: groove;
+  border-color: #333;
   padding: 10px;
   flex-shrink: 0.2;
 }
@@ -187,5 +170,5 @@ footer p {
 }
 
 .card-description p {
-  margin: 0;
+  margin: 29px;
 }
